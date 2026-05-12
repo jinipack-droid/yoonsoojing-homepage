@@ -1,0 +1,15 @@
+.chrome-qa-profile/
+.chrome-qa-profile-mobile/
+qa-*.png
+.git/
+.git-upload/
+.git-deploy/
+.vercel/
+PUBLIC_INFO_FOR_RESTART/
+docs/
+CODEX_PROMPT.md
+README.md
+exact-reference.html
+assets/images/reference/
+assets/images/character-sheet/
+assets/images/originals/

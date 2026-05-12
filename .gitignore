@@ -1,0 +1,10 @@
+.git/
+.git-upload/
+.git-deploy/
+.vercel/
+.chrome-qa-profile/
+.chrome-qa-profile-mobile/
+qa-*.png
+PUBLIC_INFO_FOR_RESTART/
+.DS_Store
+Thumbs.db
