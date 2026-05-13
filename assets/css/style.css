@@ -383,6 +383,30 @@ img {
   padding: 112px 0 0;
 }
 
+.event-section {
+  margin-top: 112px;
+  padding: 96px 0 118px;
+  color: #241b12;
+  background:
+    radial-gradient(ellipse at 34% 16%, rgba(255, 255, 255, 0.95), transparent 38%),
+    radial-gradient(ellipse at 72% 50%, rgba(232, 221, 204, 0.62), transparent 42%),
+    linear-gradient(180deg, #f8f6f1 0%, #eee8de 100%);
+  box-shadow: 0 0 0 100vmax #f2eee7;
+  clip-path: inset(0 -100vmax);
+}
+
+.event-section .section-heading {
+  margin-bottom: 46px;
+}
+
+.event-section .section-heading p {
+  color: #b4864b;
+}
+
+.event-section .section-heading h2 {
+  color: #241b12;
+}
+
 .doctor-layout {
   display: grid;
   grid-template-columns: 300px minmax(0, 1fr) 220px;
@@ -468,7 +492,7 @@ img {
 .event-layout {
   display: grid;
   grid-template-columns: 0.82fr 1.7fr 0.82fr;
-  gap: 18px;
+  gap: 28px;
   align-items: stretch;
 }
 
@@ -476,14 +500,18 @@ img {
   position: relative;
   min-height: 260px;
   overflow: hidden;
-  background: #14110f;
+  border: 1px solid rgba(104, 87, 64, 0.14);
+  background: #fffdfa;
+  box-shadow: 0 28px 64px rgba(63, 48, 31, 0.14);
 }
 
 .event-card::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 16%, rgba(7, 6, 5, 0.86) 100%);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(246, 241, 233, 0.2) 42%, rgba(246, 241, 233, 0.9) 100%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.14), transparent 36%, rgba(255, 255, 255, 0.2));
 }
 
 .event-card img {
@@ -491,6 +519,7 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  filter: brightness(1.18) saturate(0.94) contrast(0.94);
 }
 
 .event-card div {
@@ -503,12 +532,13 @@ img {
 
 .event-card h3 {
   margin: 0 0 14px;
+  color: #241b12;
   font-size: 22px;
   line-height: 1.35;
 }
 
 .event-card span {
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(36, 27, 18, 0.72);
   font-size: 14px;
 }
 
@@ -517,6 +547,7 @@ img {
 }
 
 .event-card.featured h3 {
+  color: #241b12;
   font-size: 34px;
 }
 
@@ -732,6 +763,11 @@ img {
   .space-section,
   .contact-section {
     padding-top: 82px;
+  }
+
+  .event-section {
+    margin-top: 82px;
+    padding-bottom: 82px;
   }
 
   .doctor-main-photo img,
