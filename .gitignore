@@ -6,5 +6,17 @@
 .chrome-qa-profile-mobile/
 qa-*.png
 PUBLIC_INFO_FOR_RESTART/
+docs/
+CODEX_PROMPT.md
+README.md
+exact-reference.html
+assets/images/reference/
+assets/images/character-sheet/
+assets/images/originals/
 .DS_Store
 Thumbs.db
+00_*.md
+01_*.md
+02_*.md
+03_*.md
+04_*.md
